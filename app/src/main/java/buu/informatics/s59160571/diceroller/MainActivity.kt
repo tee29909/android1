@@ -4,8 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-
-import android.widget.Toast
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
@@ -46,6 +44,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        Toast.makeText(this,"button clicked", Toast.LENGTH_SHORT).show()
+        val diceImge: ImageView = findViewById(R.id.dice_image)
+        val drawableResource = R.drawable.dice_1
+        diceImge.setImageResource(drawableResource)
     }
 }
