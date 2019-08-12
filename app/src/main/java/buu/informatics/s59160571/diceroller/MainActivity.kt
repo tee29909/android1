@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val diceImge: ImageView = findViewById(R.id.dice_image)
-        val drawableResource = R.drawable.dice_1
+        val drawableResource = R.drawable.empty_dice
         diceImge.setImageResource(drawableResource)
     }
 }
